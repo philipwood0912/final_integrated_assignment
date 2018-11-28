@@ -1,0 +1,379 @@
+@charset "utf-8";
+/*CSS document*/
+
+.hidden
+{
+	display: none;
+}
+
+div,p,body,header,footer,section,article,nav,h1,h2,h3,h4,h5 
+{ 
+    margin: 0; 
+    padding: 0; 
+} 
+
+img 
+{ 
+    border: none; 
+    margin: 0; 
+    padding: 0; 
+}
+
+body 
+{
+    font-family: Myriad Pro, Helvetica, Arial, sans-serif;
+    background-image: url("../images/background-green.jpg")
+ 
+}
+
+.container
+{
+    width: 960px;
+    margin: 0 auto;
+}
+
+/*Header css*/
+#mainHeader
+{
+    width: 960px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+}
+
+#mainNav
+{
+    width: 500px;
+    height: 60px;
+    margin-left: auto;
+    display: inline-flex;
+    background-color: #394737;
+    align-items: center;
+    margin-top: 90px;
+    box-shadow: 2px 2px 5px 1px;
+}
+
+#mainNav ul
+{
+    list-style-type: none;
+    padding: 0px;
+    margin-left: 5px;
+}
+
+#mainNav ul li
+{
+    display: inline;
+    font-size: 28px;
+    margin-left: 30px;
+}
+
+ul li a
+{
+    text-decoration: none;
+    color: #fff;
+}
+
+#mainLogo
+{
+    width: 400px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+/*Home page content css*/
+#promo
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.promoBox
+{
+    width: 285px;
+    height: 270px;
+    background-color: #394737;
+    padding: 5px;
+    box-shadow: 2px 2px 5px 1px;
+}
+
+.productImg
+{
+    text-align: center;
+    margin-top: 8px;
+}
+
+.productImg h2, h3
+{
+    color: #fff;
+}
+
+
+.productImg img
+{
+    padding: 5px;
+    background-color: #fff;
+}
+
+#contentHome
+{
+    width: 910px;
+    height: 320px;
+    background-color: #394737;
+    margin: auto;
+    margin-top: 75px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 2px 2px 5px 1px;
+}
+
+.conBox
+{
+    width: 215px;
+    height: 300px;
+    background-color: #f9e5b9;
+    text-align: center;
+    padding: 5px;
+}
+
+.conBox h2
+{
+    color: #fff;
+}
+
+.textBox
+{
+    background-color: #608b4b;
+    width: 170px;
+    height: 90px;
+    margin: auto;
+}
+
+.textBox p
+{
+    font-size: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    color: #fff;
+}
+
+/*Footer css*/
+#mainFooter
+{
+    width: 960px;
+    height: 180px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#footerNav
+{
+    width: 550px;
+    height: 100px;
+    background-color: #394737;
+    margin-top: 100px;
+    margin-bottom: 70px;
+    padding-bottom: 5px;
+    box-shadow: 2px 2px 5px 1px;
+}
+
+#footerNav nav
+{
+    display: flex; 
+    text-align: center;
+}
+
+ul
+{
+    list-style-type: none;
+}
+
+#footerNav nav ul li
+{
+    font-size: 28px;
+    padding: 3px;
+}
+
+.soc1 ul li
+{
+    list-style-type: none;
+    display: inline;
+}
+
+.soc1 ul
+{
+    margin-top: 30px;
+}
+
+
+#copyRight
+{
+    width: 260;
+    height: 70;
+    text-align: center;
+    margin-top: 115px;
+}
+
+#copyRight ul li
+{
+    font-size: 9px;
+}
+
+/*Bud page css*/
+#rollPromo
+{
+    width: 920px;
+    height: 240px;
+    background-color: #394737;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-left: 20px;
+    box-shadow: 2px 2px 5px 1px
+}
+
+#rollBox
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#rollBox img
+{
+    padding: 5px;
+    background-color: #fff;
+    margin-top: 9px;
+}
+
+#rollBox h2
+{
+    font-size: 48px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+#dealBox
+{
+    width: 355px;
+    height: 205px;
+    background-color: #f9e5b9;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 17px;
+    align-items: center;
+}
+
+#dealText
+{
+    width: 300px;
+    height: 125px;
+}
+
+#dealBox h2
+{
+    font-size: 36px;
+    margin-top: 8px;
+}
+
+#dealText p
+{
+    font-weight: bold;
+    font-size: 16px;
+    padding: 0px 10px 0px 10px;
+}
+
+#limitedTime
+{
+    margin-top: 15px;
+    line-height: 1.5;
+}
+
+#free
+{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+#contentBud
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 60px;
+}
+
+.budBox
+{
+    width: 200px;
+    height: 335px;
+    background-color: #394737;
+    text-align: center;
+    box-shadow: 2px 2px 5px 1px;
+}
+
+.budBox #bud1, #bud3
+{
+    margin-top: 28px;
+}
+
+.budBox #bud2, #bud4
+{
+    margin-top: 6px;
+}
+
+.budBox img
+{
+    padding: 5px;
+    background-color: #fff;
+    margin-top: 14px
+}
+
+.budText
+{
+    width: 170px;
+    height: 85px;
+    margin: auto;
+    background-color: #f9e5b9;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.budText h5, .budText p
+{
+    font-size: 12px;
+}
+
+#moreButton
+{
+    width: 75px;
+    height: 35px;
+    background-color: #394737;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 17px;
+    box-shadow: 2px 2px 5px 1px #000000;
+}
+
+.more
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+
+
+
