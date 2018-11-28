@@ -12,6 +12,11 @@
                 <h1 class="hidden">Best Buds</h1>
                 <img src="images/logo.svg" alt="Best Buds Logo" width="400" height="200"> 
             </div>
+            <div id="navDiv">
+            <div id="buttonDiv">
+                <button type="button" class="buttonTop" id="signIn">Sign In</button>
+                <button type="button" class="buttonTop">Sign Up</button>
+            </div>
             <nav id="mainNav">
                 <h2 class="hidden">Main Navigation</h2>
                 <ul>
@@ -21,11 +26,65 @@
                     <li><a href="Contact.html">Contact</a></li>
                 </ul>
             </nav>
+            </div>
         </header>
-        <section id="contentCon">
-        	<div id="content1"><p>Content Area 1</p></div><!--end content1-->
-        	<div id="content2"><p>Content Area 2</p></div><!--end content2-->
-        </section><!--end contentCon-->
+        <div id="contentContact">
+            <section class="contentBox">
+                <div id="signupContact">
+                    <button type="button" class="formButton">Sign Up</button>
+                    <button type="button" class="formButton">Contact</button>
+                </div>
+                <div id="formDiv">
+                    <form method="post" action="form.php">
+                        <label for="firstName">First Name</label>
+                        <input id="firstName" type="text" placeholder="First Name" required>
+                        <label for="lastName">Last Name</label>
+                        <input id="lastName" type="text" placeholder="Last Name" required>
+                        <label for="email">Email</label>
+                        <input id="email" type="email" placeholder="youremail@gmail.com" required>
+                        <label for="confirmEmail">Confirm Your Email</label>
+                        <input id="confirmEmail" type="email" placeholder="youremail@gmail.com" required>
+                        <label for="password">Password</label>
+                        <input id="password" type="password" placeholder="Password" required>
+                        <label for="confirmPassword">Confirm Your Password</label>
+                        <input id="confirmPassword" type="password" placeholder="Password" required>
+                        <label for="checkbox">By checking this box, you confirm that you are 19+</label>
+                        <input id="checkbox" type="checkbox" required>
+                        <button type="submit" id="submitButton">Submit</button>
+                    </form>
+                </div>
+            </section>
+            <section class="contentBox">
+                <h2>MEMBER PERKS</h2>
+                <div id="perkDiv">
+                    <p>When you become a memeber and you make a purchase, you'll receive one free gram of cannabis from the featured strains below. <br> (updated weekly)</p>
+                    <p>You'll also receive emails about upcoming promotions, sales and information about new arrivals coming to the store.</p>
+                </div>
+                <div id="photoDiv">
+                    <div class="perk">
+                        <div class="perkPhoto">
+                            <img src="images/godfather_og.jpg" alt="godfather OG">
+                            <h3>Godfather OG</h3>
+                        </div>
+                        <div class="perkPhoto perkBottom">
+                            <img src="images/coyote_og.jpg" alt="coyote OG">
+                            <h3>Coyote OG</h3>
+                        </div>
+                    </div>
+                    <div class="perk">
+                        <div class="perkPhoto">
+                            <img src="images/afghan_kush.jpg" alt="afghan kush">
+                            <h3>Afghan Kush</h3>
+                        </div>
+                        <div class="perkPhoto perkBottom">
+                            <img src="images/green_crack.jpg" alt="green crack">
+                            <h3>Green Crack</h3>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
         <footer id="mainFooter">
             <div id="footerNav">
                 <nav>
