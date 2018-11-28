@@ -41,15 +41,39 @@ body
     flex-direction: row;
 }
 
+#signIn
+{
+    margin-right: 20px;
+}
+
+#buttonDiv
+{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 60px;
+}
+
+.buttonTop
+{
+    width: 85px;
+    height: 35px;
+    background-color: #608b4b;
+    font-size: 18px;
+    color: #fff;
+    font-weight: bolder;
+}
+
 #mainNav
 {
     width: 500px;
     height: 60px;
     margin-left: auto;
     display: inline-flex;
+    justify-content: center;
     background-color: #394737;
     align-items: center;
-    margin-top: 90px;
+    margin-top: 20px;
+    margin-left: 50px;
     box-shadow: 2px 2px 5px 1px;
 }
 
@@ -57,14 +81,13 @@ body
 {
     list-style-type: none;
     padding: 0px;
-    margin-left: 5px;
 }
 
 #mainNav ul li
 {
     display: inline;
     font-size: 28px;
-    margin-left: 30px;
+    margin: 0px 10px 0px 20px;
 }
 
 ul li a
@@ -106,7 +129,7 @@ ul li a
     margin-top: 8px;
 }
 
-.productImg h2, h3
+.productImg h2, .productImg h3
 {
     color: #fff;
 }
@@ -373,6 +396,103 @@ ul
     justify-content: center;
     margin-top: 25px;
 }
+
+/*CSS for contact page*/
+
+#contentContact
+{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.contentBox
+{
+    width: 440px;
+    height: 630px;
+    background-color: #394737;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contentBox h2
+{
+    font-size: 45px;
+    color: #fff;
+}
+
+.formButton
+{
+    width: 132px;
+    height: 45px;
+    background-color: #608b4b;
+    border: none;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+#formDiv
+{
+    width: 385px;
+    height: 505px;
+    background-color: #f9e5b9;
+    margin-bottom: 5px;
+}
+
+#perkDiv
+{
+    width: 380px;
+    height: 160px;
+    background-color: #f9e5b9;
+    text-align: center;
+}
+
+#perkDiv p
+{
+    padding: 10px 10px 0px 10px;
+    font-weight: bold;
+}
+
+#photoDiv
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.perk
+{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 45px 0px 45px;
+    justify-content: space-evenly;
+    height: 340px;
+}
+
+.perkPhoto
+{
+    width: 145px;
+    height: 150px;
+    background-color: #f9e5b9;
+    text-align: center;
+}
+
+.perkPhoto img
+{
+    background-color: #fff;
+    padding: 3px;
+    margin-top: 5px;
+}
+
+.perkPhoto h3
+{
+    font-size: 13px;
+    font-weight: bolder;
+}
+
 
 
 
